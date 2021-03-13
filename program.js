@@ -75,7 +75,8 @@ function removeFromLocal(item){
         for(var i=0; i<itemArray.length; i++){
 
             if(itemArray[i].trim(" ") == item.trim(" "))
-            itemArray.splice(i, 1)
+            itemArray.splice(i, 1);
+            break;
 
         }
 
